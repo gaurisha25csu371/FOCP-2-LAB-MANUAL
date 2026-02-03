@@ -1,19 +1,19 @@
 
 
-// #include <iostream>
-// #include <string>
-// using namespace std;
+#include <iostream>
+#include <string>
+using namespace std;
 
-// int main()
-// {
-//     string name;
-//     cout << "Enter your name: ";
-//     getline(cin,name);
+int main()
+{
+    string name;
+    cout << "Enter your name: ";
+    getline(cin,name);
 
-//     cout << "The name is:" <<name;
+    cout << "The name is:" <<name;
 
-//     return 0;
-// }
+    return 0;
+}
 //  a function is also known as method in oops
 //  when we are taking string input immediately after any other data type input we need to use the cin.ignore 
 
